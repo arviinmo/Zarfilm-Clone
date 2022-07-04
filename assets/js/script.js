@@ -486,7 +486,7 @@ if (matchMedia("(min-width: 1001px)").matches) {
     title: "Warning",
     text: "this project is a clone of Zarfilm website!",
     icon: "warning",
-    button: "بزن بریم!",
+    button: "OK",
   });
 }
 
