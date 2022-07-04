@@ -483,8 +483,8 @@ $(`.persian-movie-dub-card:nth-child(6)`)[0].classList.add(... ['md:hidden','2xl
 
 if (matchMedia("(min-width: 1001px)").matches) {
   swal({
-    title: "یک لحضه وایسا ...",
-    text: "اینجا صرفا یک صفحه غیر رسمی از وب سایت زرفیلم هست!",
+    title: "Warning",
+    text: "this project is a clone of Zarfilm website!",
     icon: "warning",
     button: "بزن بریم!",
   });
@@ -502,10 +502,10 @@ function logoImage(){
     $('#logo')[0].src = 'assets/img/logo-light.png';
     if (matchMedia("(min-width: 1001px)").matches) {
       swal({
-        title: "همم , یه چیزی ...",
-        text: "راستش حسش نبود استایل های حالت لایت مود رو واسه کل سایت بزنم فقط واسه هدر حالت لایت مود زدم!",
+        title: "Warning!",
+        text: "light theme is only available for header section and hadn't been applied for the whole project yet.",
         icon: "warning",
-        button: "بزن بریم!",
+        button: "OK",
       });
     }
   } else {
