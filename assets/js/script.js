@@ -484,7 +484,7 @@ $(`.persian-movie-dub-card:nth-child(6)`)[0].classList.add(... ['md:hidden','2xl
 if (matchMedia("(min-width: 1001px)").matches) {
   swal({
     title: "Warning",
-    text: "this project is a clone of Zarfilm website!",
+    text: "this project is a clone of Zarfilm website",
     icon: "warning",
     button: "OK",
   });
@@ -502,8 +502,8 @@ function logoImage(){
     $('#logo')[0].src = 'assets/img/logo-light.png';
     if (matchMedia("(min-width: 1001px)").matches) {
       swal({
-        title: "Warning!",
-        text: "light theme is only available for header section and hadn't been applied for the whole project yet.",
+        title: "Warning",
+        text: "light theme is only available for header section and hadn't been applied for the whole project yet",
         icon: "warning",
         button: "OK",
       });
